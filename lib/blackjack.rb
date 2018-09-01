@@ -34,12 +34,14 @@ end
 def hit?(current_card_total)
     prompt_user
     input = get_user_input
+    
   if input == "h"
     return current_card_total += deal_card
-  elsif input == "s"
-  return current_card_total
     
-  end
+  elsif input == "s"
+   return current_card_total
+   
+    end
 end
     
   
@@ -56,6 +58,12 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  prompt_user
+  hit?
+  hit?
+  
+  
 end
     
