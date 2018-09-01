@@ -32,11 +32,20 @@ end
   
 
 def hit?(current_card_total)
+  prompt_user
+  if get_user_input == "h"
+    current_card_total += deal_card
+  elsif get_user_input != "h" || get_user_input != "s"
+    puts invalid_command
+  end
+    
+  
   
 end
 
 def invalid_command
-  # code invalid_command here
+  phrase = "Please enter a vailid command"
+  puts phrase
 end
 
 #####################################################
