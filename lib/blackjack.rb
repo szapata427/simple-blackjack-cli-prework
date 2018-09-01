@@ -64,6 +64,6 @@ def runner
   hit?(current_card_total)?
   hit?(current_card_total)?
   until hit?(current_card_total) > 21
-  
+  end
 end
     
