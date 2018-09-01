@@ -42,7 +42,7 @@ end
     
   
   
-end
+
 
 def invalid_command
   phrase = "Please enter a vailid command"
