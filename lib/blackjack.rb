@@ -61,7 +61,8 @@ def runner
   welcome
  hand = initial_round
  until hand > 21 do
-  hand += hit?(current_card_total)
+  hand += hit?(hand)
+  
   
 end
     
