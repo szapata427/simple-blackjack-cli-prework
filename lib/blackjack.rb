@@ -29,6 +29,7 @@ def initial_round
   deal_two = deal_card
    card_total = deal_one + deal_two
   puts display_card_total(card_total)
+  return display_card_total(card_total)
 end	
   
 
