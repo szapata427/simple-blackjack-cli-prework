@@ -38,6 +38,7 @@ def hit?(current_card_total)
   elsif get_user_input != "h" || get_user_input != "s"
     puts invalid_command
   end
+end
     
   
   
